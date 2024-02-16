@@ -1,0 +1,297 @@
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+    --boz: #e3e9e9;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') 60%/cover;
+    text-align: center;
+}
+
+nav,
+#title {
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    padding: 40px 50px;
+}
+
+#menu li a {
+    font: .8em 'Avenir Next';
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#title {
+    bottom: 17vh;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Myriad Pro'
+}
+
+h2 {
+    font-family: 'Open Sans'
+}
+
+h3 {
+    font: 1.5em 'Open Sans';
+    padding: 20px 0
+}
+
+h4 {
+    font: 0.8em Montserrat;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font: 1em 'Myriad Pro';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: .9em;
+    color: #656e74;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+form{
+    margin: 20px 0;
+}
+input{
+    display: block;
+    width: 100%;
+}
+
+
+
+.bgag {
+    background-color: #fff
+}
+
+.bgyasil {
+    background-color: var(--yasil)
+}
+
+.bgqirmizi {
+    background-color: var(--qirmizi)
+}
+.bgqara{
+    background-color: #0c1119;
+}
+.bgfb{
+    background-color: #2e3092;
+}
+.bgtw{
+    background-color: #00adef;
+}
+.bgln{
+    background-color: #16198f;
+}
+.bgyt{
+    background-color: #ed3123;
+}
+.txtag {
+    color: #fff
+}
+
+.txtyasil {
+    color: var(--yasil)
+}
+
+.txtqirmizi {
+    color: var(--qirmizi)
+}
+
+.txtboz {
+    color: var(--boz);
+}
+.txtfooter{
+    color: #8297a7;
+}
+.center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.vh50 {
+    min-height: 50vh
+}
+
+.art4 {
+    padding: 60px 0
+}
+
+.art {
+    padding: 55px 40px
+}
+
+.col25 {
+    padding: 30px 10px
+}
+
+.art4 i {
+    font-size: 2.8em;
+}
+
+.m15 {
+    margin: 15px 0;
+}
+.mt10{
+    margin-top: 10px 0 0 0 ;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.p25{
+    padding: 0 25px;
+}
+.p60{
+    padding: 60px 0;
+}
+.pi15{
+    padding: 15px;
+    border-radius: 50%;
+}
+.pin{
+    padding: 18px 23px;
+}
+
+
+
+#fitnessfirst {
+    background: url('../img/fitnessfirst.jpg') center/cover;
+}
+
+#yourbody {
+    background: url('../img/yourbody.jpg') center/cover;
+}
+
+#lifestyle {
+    background: url('../img/lifestyle.jpg') center/cover;
+}
+
+#summeroffun {
+    background: url('../img/summeroffun.jpg') center/cover;
+}
+
+#grape {
+    background: url('../img/grape.jpg') center/cover;
+}
+
+#mango {
+    background: url('../img/mango.jpg') center/cover;
+}
+#footerimg{
+    background: url('../img/footerimg.jpg') center/cover;
+}
+
+#rb {
+    position: absolute;
+    right: 40px;
+    bottom: 50px
+}
+
+#lb {
+    position: absolute;
+    left: 40px;
+    bottom: 50px
+}
+#rt {
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+#lt {
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h1,
+    h2 {
+        font: 2.5em
+    }
+
+    header {
+        text-align: initial;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    #menu li {
+        display: inline-block;
+        margin-left: 3.3vw;
+    }
+
+    #title {
+        left: 7.5vw;
+        width: initial;
+    }
+
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .col25 {
+        width: 25%
+    }
+
+    .col33 {
+        width: 33.33%
+    }
+
+    .col66 {
+        width: 66.66%
+    }
+
+    .fleft {
+        float: left
+    }
+
+    .fright {
+        float: right
+    }
+    form{
+        width: 67%;
+    }
+    input{
+        display: initial;
+        width: initial;
+    }
+    .w340{
+        width: 40%;
+    }
+}
